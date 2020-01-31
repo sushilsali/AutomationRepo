@@ -25,9 +25,11 @@ public class TwoDimensionalArray {
 		{
 			for(int c=0; c<str[i].length; c++)
 			{			
-				System.out.println(str[i][c]);
-			}
-			System.out.println("");
+				System.out.print(str[i][c]);
+				System.out.print("     ");
+				
+			}	
+			System.out.println();
 		}
 		
 	}
